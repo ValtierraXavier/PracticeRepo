@@ -1,0 +1,19 @@
+#postImageForm{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#allPosts{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+#post{
+display: flex;
+flex-flow: column nowrap;
+border:solid black 1px;
+border-radius: 5px;
+margin: 5px 25% 5px 25%;
+padding: 10px;
+}

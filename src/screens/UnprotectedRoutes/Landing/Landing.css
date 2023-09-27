@@ -1,0 +1,17 @@
+.Landing{
+    display: flex;
+    position: absolute;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+    height:100dvh;
+    width: 100dvw;
+    background-image: linear-gradient(to right bottom,lavender, pink) ;
+}
+
+.signupFormDiv{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+

@@ -1,0 +1,29 @@
+.signin{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.signupSignin{
+    display: flex;    
+    position: relative;
+}
+.signinForm{
+    display: flex;
+    position: relative;
+    flex-flow:column nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.signinInput{
+    margin: 0 0 10px 0;
+    border: solid black 1px;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+.signupLink{
+    text-align: center;
+}

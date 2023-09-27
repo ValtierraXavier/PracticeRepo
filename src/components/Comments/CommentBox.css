@@ -1,0 +1,69 @@
+.commentsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw;
+    /* border: solid black; */
+}
+
+.commentsTitle{
+    display:flex;
+    flex-direction: row;
+    border: solid black;
+    justify-content: center;
+    width: 50vw;
+    font-weight: 300;
+    color:black;
+}
+
+.commentsBoxBanner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid black;
+    width: 50vw;
+}
+
+.bannerItems{
+    margin: 1vw;
+}
+
+#commenter{}
+
+#postDate{}
+
+#likeDiv{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#likeIcon{
+
+}
+
+#likeCount{
+    justify-self: center;
+}
+
+.commentsTextWindow{
+    display: block;
+    border: solid black;
+    width: 50vw;
+    max-height: 10vw;
+    min-height: 5vw;
+    overflow-y: auto;
+}
+
+.comment{
+    margin-left: 4vw;
+    overflow-y: auto;
+    border: solid black;
+    max-width: 15vw;
+    padding: .35vw;
+    border-radius: .3vw;
+}
+
+.commentPlaceholder{
+    border:solid black;
+}

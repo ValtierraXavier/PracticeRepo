@@ -1,0 +1,12 @@
+.signupForm{
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    width: 50svw;
+    height: 50dvh;
+}
+
+.signinLink{
+    text-align: center;
+}
+
